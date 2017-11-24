@@ -1,5 +1,32 @@
-.careau {
-	width: 200px;
-	height: 200px;
-	background-color: red;
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header
+{
+	background-image: url(../img/Photo-Background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color:  white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: arial;
 }
